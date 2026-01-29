@@ -1,0 +1,2 @@
+- Windows Security Logs
+- Sysmon Operational Logs
