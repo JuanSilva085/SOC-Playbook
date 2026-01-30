@@ -1,7 +1,21 @@
 # Suspicious PowerShell Execution – Example
 
-This example is based on a Sysmon Event ID 1 indicating suspicious
-PowerShell execution with encoded command-line arguments.
+## Incident Type
+Suspicious PowerShell Activity
 
-The playbook investigation steps were applied, including command-line
-analysis and Base64 decoding, leading to incident escalation.
+## Detection
+Suspicious PowerShell execution identified through Sysmon logs.
+
+## Evidence
+- Sysmon Event ID 1 – Process creation
+
+## Analysis
+PowerShell was executed with uncommon parameters, which may indicate malicious or unauthorized activity.
+
+## Conclusion
+The activity was classified as suspicious and requires further monitoring.
+
+## Recommended Action
+- Review executed command
+- Monitor host activity
+- Escalate if additional indicators are observed
